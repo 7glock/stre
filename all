@@ -1,3 +1,4 @@
+while wait(1) do
 for i,v in pairs(game.Players:GetPlayers()) do
 
 local ohTable1 = {}
@@ -46,4 +47,4 @@ local ohTable10 = {
 game:GetService("ReplicatedStorage").Remotes.InflictTarget:InvokeServer(ohTable1, ohInstance2, ohInstance3, ohInstance4, ohInstance5, ohTable6, ohTable7, ohTable8, ohInstance9, ohTable10)
 
 end
-
+end
