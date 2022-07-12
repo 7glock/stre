@@ -1,6 +1,3 @@
-loop:Disconnect()
-       FOVring:Remove()
-
 local teamCheck = false
 local fov = 150
 local smoothing = 0.5
