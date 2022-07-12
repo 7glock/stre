@@ -1,0 +1,5 @@
+for _,v in pairs(workspace:GetChildren()) do
+  if v.Name == "CashOnDeath" and v:FindFirstChild("BillboardGui") then
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+  end
+end
